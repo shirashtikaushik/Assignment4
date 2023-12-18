@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="listCount"></h3>
+    <ul id="studentList"></ul>
+    <div id="div1" style="display:none;">
+        <form>
+        <div>
+        <label for="Entername"><b>Enter name</b></label>
+        <input type="Entername" placeholder="Enter name"  id="txtname" required>
+         </div>
+         <div>
+        <label for="EnterAddress"><b>Enter Address </b></label>
+        <input type="Entername" placeholder="Enter Address"  id="txtaddress">
+         </div>
+         <div>
+        <label for="EnterBatch"><b>Enter Batch</b></label>
+        <input type="Enterbatch" placeholder="Enter Batch"  id="txtbatch" onkeydown="Add(event)">
+        </div>
+       
+        <script src="script1.js"></script>
+        </form>
+    </div>  
+    <button onclick="addRecord()"> add Record </button> 
+    <button  onclick="deleteRecord()"> delete Record </button>   
+</body>
+</html>
